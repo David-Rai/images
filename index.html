@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <section class="mtop">
+            <nav>
+                <div class="logo">Photos</div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/explore">Explores</a></li>
+                    <li><a href="/about">About me</a></li>
+                    <li><a href="/explore">Source code</a></li>
+                </ul>
+            </nav>
+            <div class="mtop-center">
+                <h1>The best free stock photos, royalty free</h1>
+                <h1>images & videos shared by creators.</h1>
+                <div class="input">
+                    <input type="text" id="searchInput" placeholder="Search for free images">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+           
+                </div>
+            </div>
+        </section>
+
+        <section class="mbottom">
+            <ul>
+                <li class="active" style="color: white;">Adventure</li>
+                <li>Moon</li>
+                <li>Galaxy</li>
+            </ul>
+        </section>
+
+        <section class="photo-gallery" id="photoGallery">
+            <p>No photos found</p>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
